@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewData["Title"] = "GetProducts";
+}
+<h2>Dữ liệu lấy ra từ ViewBag</h2>
+<p>Mã sản phẩm: @ViewBag.productVB.ProductId</p>
+<p>Tên sản phẩm: @ViewBag.productVB.ProductName</p>
+<p>Năm sản xuất: @ViewBag.productVB.YearRelease</p>
+<p>Giá: @ViewBag.productVB.Price</p>
+
+<h2>Dữ liệu lấy ra từ ViewData</h2>
+@{
+    // Phải chuyển đổi về kiểu Product
+    var product = ViewData["productVD"] as NvkLesson2.Models.Product;
+}
+<p>Mã sản phẩm: @product.ProductId</p>
+<p>Tên sản phẩm: @product.ProductName</p>
+<p>Năm sản xuất: @product.YearRelease</p>
+<p>Giá: @product.Price</p>
