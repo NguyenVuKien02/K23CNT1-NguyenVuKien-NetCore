@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\asp net core\\K23CNT1-NguyenVuKien-NetCore\\NvkLesson02\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8A1F489F-86BF-430D-810D-F0CB321A00F2}|NvkLesson02.csproj|e:\\asp net core\\k23cnt1-nguyenvukien-netcore\\nvklesson02\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A1F489F-86BF-430D-810D-F0CB321A00F2}|NvkLesson02.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A1F489F-86BF-430D-810D-F0CB321A00F2}|NvkLesson02.csproj|e:\\asp net core\\k23cnt1-nguyenvukien-netcore\\nvklesson02\\views\\account\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8A1F489F-86BF-430D-810D-F0CB321A00F2}|NvkLesson02.csproj|solutionrelative:views\\account\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A1F489F-86BF-430D-810D-F0CB321A00F2}|NvkLesson02.csproj|e:\\asp net core\\k23cnt1-nguyenvukien-netcore\\nvklesson02\\views\\account\\indexac.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8A1F489F-86BF-430D-810D-F0CB321A00F2}|NvkLesson02.csproj|solutionrelative:views\\account\\indexac.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A1F489F-86BF-430D-810D-F0CB321A00F2}|NvkLesson02.csproj|e:\\asp net core\\k23cnt1-nguyenvukien-netcore\\nvklesson02\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8A1F489F-86BF-430D-810D-F0CB321A00F2}|NvkLesson02.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A1F489F-86BF-430D-810D-F0CB321A00F2}|NvkLesson02.csproj|e:\\asp net core\\k23cnt1-nguyenvukien-netcore\\nvklesson02\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A1F489F-86BF-430D-810D-F0CB321A00F2}|NvkLesson02.csproj|solutionrelative:models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "E:\\asp net core\\K23CNT1-NguyenVuKien-NetCore\\NvkLesson02\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "E:\\asp net core\\K23CNT1-NguyenVuKien-NetCore\\NvkLesson02\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAYwGEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T07:30:33.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "E:\\asp net core\\K23CNT1-NguyenVuKien-NetCore\\NvkLesson02\\Views\\Account\\Profile.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Profile.cshtml",
+              "ToolTip": "E:\\asp net core\\K23CNT1-NguyenVuKien-NetCore\\NvkLesson02\\Views\\Account\\Profile.cshtml",
+              "RelativeToolTip": "Views\\Account\\Profile.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAMAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-18T13:01:51.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IndexAc.cshtml",
+              "DocumentMoniker": "E:\\asp net core\\K23CNT1-NguyenVuKien-NetCore\\NvkLesson02\\Views\\Account\\IndexAc.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\IndexAc.cshtml",
+              "ToolTip": "E:\\asp net core\\K23CNT1-NguyenVuKien-NetCore\\NvkLesson02\\Views\\Account\\IndexAc.cshtml",
+              "RelativeToolTip": "Views\\Account\\IndexAc.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-18T08:58:37.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\asp net core\\K23CNT1-NguyenVuKien-NetCore\\NvkLesson02\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\asp net core\\K23CNT1-NguyenVuKien-NetCore\\NvkLesson02\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-18T08:32:42.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Account.cs",
+              "DocumentMoniker": "E:\\asp net core\\K23CNT1-NguyenVuKien-NetCore\\NvkLesson02\\Models\\Account.cs",
+              "RelativeDocumentMoniker": "Models\\Account.cs",
+              "ToolTip": "E:\\asp net core\\K23CNT1-NguyenVuKien-NetCore\\NvkLesson02\\Models\\Account.cs",
+              "RelativeToolTip": "Models\\Account.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T07:40:21.452Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
