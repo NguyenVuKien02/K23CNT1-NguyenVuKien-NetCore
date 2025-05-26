@@ -1,0 +1,54 @@
+﻿@model NvkLab06.Models.NvkEmployee
+
+<h2>Thêm mới thành viên</h2>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form action="/NvkEmployee/NvkCreateSubmit" method="post">
+            <div class="form-group">
+                <label class="control-label" for="NvkId">ID</label>
+                <input class="form-control" type="text" id="NvkId" name="NvkId" value="" readonly />
+            </div>
+
+            <div class="form-group">
+                <label class="control-label" for="NvkName">Name</label>
+                <input class="form-control" type="text" id="NvkName" name="NvkName" value="" />
+            </div>
+
+            <div class="form-group">
+                <label class="control-label" for="NvkBirthDay">BirthDay</label>
+                <input class="form-control" type="date" id="NvkBirthDay" name="NvkBirthDay" value="" />
+            </div>
+
+            <div class="form-group">
+                <label class="control-label" for="NvkEmail">Email</label>
+                <input class="form-control" type="email" id="NvkEmail" name="NvkEmail" value="" />
+            </div>
+
+            <div class="form-group">
+                <label class="control-label" for="NvkPhone">Phone</label>
+                <input class="form-control" type="number" id="NvkPhone" name="NvkPhone" value="" />
+            </div>
+
+            <div class="form-group">
+                <label class="control-label" for="NvkSalary">Salary</label>
+                <input class="form-control" type="number" id="NvkSalary" name="NvkSalary" value="" />
+            </div>
+
+            <div class="form-group">
+                <label class="control-label" for="NvkStatus">Status</label>
+                <select class="form-control" id="NvkStatus" name="NvkStatus">
+                    <option value="1">Đi làm</option>
+                    <option value="2">Nghỉ</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Lưu" class="btn btn-primary" />
+            </div>
+
+            <!-- CSRF Token -->
+            <input name="__RequestVerificationToken" type="hidden" value="" />
+        </form>
+    </div>
+</div>
