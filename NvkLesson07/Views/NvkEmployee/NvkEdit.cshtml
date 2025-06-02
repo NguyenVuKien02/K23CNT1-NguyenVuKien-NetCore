@@ -1,0 +1,64 @@
+﻿@model NvkLesson07.Models.NvkEmployee
+
+@{
+    ViewData["Title"] = "NvkEdit";
+    Layout = "~/Views/Shared/_NvkLayout.cshtml";
+}
+
+<h1>NvkEdit</h1>
+
+<h4>NvkEmployee</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="NvkEdit">
+            <input type="hidden" asp-for="NvkId" />
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+               
+            <div class="form-group">
+                <label asp-for="NvkName" class="control-label"></label>
+                <input asp-for="NvkName" class="form-control" />
+                <span asp-validation-for="NvkName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NvkBirthDay" class="control-label"></label>
+                <input asp-for="NvkBirthDay" class="form-control" />
+                <span asp-validation-for="NvkBirthDay" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NvkEmail" class="control-label"></label>
+                <input asp-for="NvkEmail" class="form-control" />
+                <span asp-validation-for="NvkEmail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NvkPhone" class="control-label"></label>
+                <input asp-for="NvkPhone" class="form-control" />
+                <span asp-validation-for="NvkPhone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NvkSalary" class="control-label"></label>
+                <input asp-for="NvkSalary" class="form-control" />
+                <span asp-validation-for="NvkSalary" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Trạng thái</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" asp-for="NvkStatus" value="1" id="statusActive" />
+                    <label class="form-check-label" for="statusActive">Đi làm</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" asp-for="NvkStatus" value="2" id="statusInactive" />
+                    <label class="form-check-label" for="statusInactive">Nghỉ</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="NvkIndex1">Back to List</a>
+</div>

@@ -1,0 +1,69 @@
+﻿@model NvkLesson07.Models.NvkEmployee
+
+<body class="bg-light">
+
+    <div class="container mt-5">
+        <h2 class="mb-4"> Thêm mới thành viên</h2>
+        <div class="card shadow rounded">
+            <div class="card-body">
+                <form action="/NvkEmployee/NvkCreateSubmit" method="post">
+                     @* <div class="mb-3">
+                         <label for="NvkId" class="form-label">ID</label>
+                         <input type="text" class="form-control" id="NvkId" name="NvkId" />
+                         <span asp-validation-for="NvkId" class="text-danger"></span>
+                     </div> *@
+
+                    <div class="mb-3">
+                        <label asp-for="NvkName" class="form-label">Tên </label>
+                        <input asp-for="NvkName" class="form-control" />
+                        <span asp-validation-for="NvkName" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="NvkBirthDay" class="form-label">Ngày sinh</label>
+                        <input asp-for="NvkBirthDay" class="form-control" />
+                        <span asp-validation-for="NvkBirthDay" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="NvkEmail" class="form-label">Email</label>
+                        <input asp-for="NvkEmail" class="form-control" />
+                        <span asp-validation-for="NvkEmail" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="NvkPhone" class="form-label">Số điện thoại</label>
+                        <input asp-for="NvkPhone" class="form-control" />
+                        <span asp-validation-for="NvkPhone" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="NvkSalary" class="form-label">Lương</label>
+                        <input asp-for="NvkSalary" class="form-control" />
+                        <span asp-validation-for="NvkSalary" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="NvkStatus" class="form-label">Trạng thái</label>
+                        <select asp-for="NvkStatus" class="form-select">
+                            <option value="1">Đi làm</option>
+                            <option value="2">Nghỉ</option>
+                        </select>
+                        <span asp-validation-for="NvkStatus" class="text-danger"></span>
+                    </div>
+
+                    <input name="__RequestVerificationToken" type="hidden" value="" />
+
+                    <button type="submit" class="btn btn-primary">💾 Lưu</button>
+                    <a href="/NvkEmployee/NvkIndex1" class="btn btn-secondary ms-2">⬅ Quay lại</a>
+                </form>
+            </div>
+        </div>
+    </div>
+ 
+</body>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
