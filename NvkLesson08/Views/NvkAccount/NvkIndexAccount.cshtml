@@ -1,0 +1,52 @@
+﻿@model IEnumerable<NvkLesson08.Models.NvkAccount>﻿
+@{
+}
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h2>Danh sách Account</h2>
+        <a href="NvkCreate" class="btn btn-primary">➕ Thêm mới</a>
+    </div>
+
+    <table class="table table-striped table-bordered table-hover">
+        <thead class="table-dark">
+            <tr>
+                <th>Id</th>
+                <th>FullName </th>
+                <th>Email </th>
+                <th>Phone </th>
+                <th>Address </th>
+                <th>Avatar </th>
+                <th>Birthday </th>
+                <th>Gender </th>
+                <th>Password </th>
+                <th>Facebook </th>
+                <th>Chức năng</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.NvkId)</td>
+                    <td>@Html.DisplayFor(modelItem => item.NvkFullName)</td>
+                    <td>@Html.DisplayFor(modelItem => item.NvkEmail)</td>
+                    <td>@Html.DisplayFor(modelItem => item.NvkPhone)</td>
+                    <td>@Html.DisplayFor(modelItem => item.NvkAddress)</td>
+                    <td>@Html.DisplayFor(modelItem => item.NvkAvatar)</td>
+                    <td>@Html.DisplayFor(modelItem => item.NvkBirthday)</td>
+                    <td>
+                    @Html.DisplayFor(modelItem => item.NvkGender)
+                    </td>
+       
+                    <td>@Html.DisplayFor(modelItem => item.NvkPassword)</td>
+                    <td>@Html.DisplayFor(modelItem => item.NvkFacebook)</td>
+                    <td>
+                    @Html.ActionLink("Edit", "NvkEdit", new { id = item.NvkId }) 
+                    @Html.ActionLink("Details", "TvcDetails", new { id = item.NvkId }) 
+                    @Html.ActionLink("Delete", "TvcDelete", new { id = item.NvkId })
+                </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
