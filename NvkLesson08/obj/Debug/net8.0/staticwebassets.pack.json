@@ -13,6 +13,18 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "E:\\asp net core\\K23CNT1-NguyenVuKien-NetCore\\NvkLesson08\\wwwroot\\images\\frieren 1.jpg",
+      "PackagePath": "staticwebassets\\images\\frieren 1.jpg"
+    },
+    {
+      "Id": "E:\\asp net core\\K23CNT1-NguyenVuKien-NetCore\\NvkLesson08\\wwwroot\\images\\frieren 2.jpg",
+      "PackagePath": "staticwebassets\\images\\frieren 2.jpg"
+    },
+    {
+      "Id": "E:\\asp net core\\K23CNT1-NguyenVuKien-NetCore\\NvkLesson08\\wwwroot\\images\\frieren 3.jpg",
+      "PackagePath": "staticwebassets\\images\\frieren 3.jpg"
+    },
+    {
       "Id": "E:\\asp net core\\K23CNT1-NguyenVuKien-NetCore\\NvkLesson08\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

@@ -42,7 +42,7 @@ namespace NvkLesson08.Models
         public DateTime NvkBirthday { get; set; }
 
         [Display(Name = "Giới tính")]
-        public string NvkGender { get; set; }
+        public int NvkGender { get; set; }
 
         [Display(Name = "Mật khẩu")]
         [DataType(DataType.Password)]

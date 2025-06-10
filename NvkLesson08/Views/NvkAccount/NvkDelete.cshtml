@@ -1,0 +1,150 @@
+﻿@model NvkLesson08.Models.NvkAccount
+
+@{
+    ViewData["Title"] = "NvkDelete";
+    Layout = "~/Views/Shared/_NvkLayout.cshtml";
+}
+<style>
+    h1, h3 {
+        font-weight: bold;
+        margin-top: 20px;
+    }
+
+    .delete-box {
+        background-color: #fff;
+        border-radius: 16px;
+        padding: 2rem;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+        margin-top: 30px;
+    }
+
+    dl.row {
+        background-color: #f8f9fa;
+        padding: 1.5rem;
+        border-radius: 12px;
+    }
+
+    dt.col-sm-2 {
+        font-weight: 600;
+        color: #495057;
+    }
+
+    dd.col-sm-10 {
+        margin-bottom: 1rem;
+    }
+
+    .btn-danger {
+        border-radius: 50px;
+        padding: 0.5rem 1.5rem;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+    }
+
+    a {
+        margin-left: 1rem;
+        font-weight: 500;
+        text-decoration: none;
+    }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+    /* Badge style for gender */
+    dd.col-sm-10:has(:contains("Nam")),
+    dd.col-sm-10:has(:contains("Nữ")) {
+        display: inline-block;
+        padding: 0.25rem 0.65rem;
+        font-size: 0.875rem;
+        font-weight: 500;
+        border-radius: 999px;
+        color: white;
+    }
+
+    dd.col-sm-10:has(:contains("Nam")) {
+        background-color: #0d6efd;
+    }
+
+    dd.col-sm-10:has(:contains("Nữ")) {
+        background-color: #dc3545;
+    }
+</style>
+<div class="container delete-box">
+<h1>Delete</h1>
+
+<h3>Bạn có muốn xóa Account</h3>
+<div>
+    <h4>NvkEmployee</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            ID
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.NvkId)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NvkFullName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.NvkFullName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NvkEmail)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.NvkEmail)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NvkPhone)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.NvkPhone)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NvkAddress)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.NvkAddress)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NvkAvatar)
+        </dt>
+        <dd class="col-sm-10">
+            <img src="~/images/@Model.NvkAvatar" alt="Avatar" width="120" height="120" style="object-fit:cover; border-radius:10px;" />
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NvkBirthday)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.NvkBirthday)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NvkGender)
+        </dt>
+        <dd class="col-sm-10">
+            @(Model.NvkGender == 1 ? "Nam" : "Nữ")
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NvkPassword)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.NvkPassword)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NvkFacebook)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.NvkFacebook)
+        </dd>
+    </dl>
+
+        <form asp-action="NvkDelete" class="mt-3">
+            <input type="submit" value="❌ Xoá ngay" class="btn btn-danger" />
+            <a asp-action="NvkIndexAccount" class="btn btn-secondary rounded-pill px-4 py-2 fw-bold text-decoration-none">
+                <i class="bi bi-arrow-left"></i> Quay lại
+            </a>
+        </form>
+
+</div>
+</div>

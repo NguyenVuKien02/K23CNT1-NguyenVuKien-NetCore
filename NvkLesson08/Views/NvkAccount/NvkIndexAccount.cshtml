@@ -3,13 +3,13 @@
 }
 <div class="container mt-4">
     <div class="d-flex justify-content-between align-items-center mb-3">
-        <h2>Danh sách Account</h2>
-        <a href="NvkCreate" class="btn btn-primary">➕ Thêm mới</a>
+        <h2 class="text-primary">Danh sách Account</h2>
+        <a asp-action="NvkCreate" class="btn btn-success">➕ Thêm mới</a>
     </div>
 
-    <table class="table table-striped table-bordered table-hover">
-        <thead class="table-dark">
-            <tr>
+    <table class="table table-striped table-bordered table-hover shadow rounded-3 overflow-hidden">
+        <thead class="table-dark text-center">
+            <tr class="align-middle">
                 <th>Id</th>
                 <th>FullName </th>
                 <th>Email </th>
@@ -23,7 +23,7 @@
                 <th>Chức năng</th>
             </tr>
         </thead>
-        <tbody>
+        <tbody class="align-middle">
             @foreach (var item in Model)
             {
                 <tr>
@@ -32,19 +32,34 @@
                     <td>@Html.DisplayFor(modelItem => item.NvkEmail)</td>
                     <td>@Html.DisplayFor(modelItem => item.NvkPhone)</td>
                     <td>@Html.DisplayFor(modelItem => item.NvkAddress)</td>
-                    <td>@Html.DisplayFor(modelItem => item.NvkAvatar)</td>
-                    <td>@Html.DisplayFor(modelItem => item.NvkBirthday)</td>
                     <td>
-                    @Html.DisplayFor(modelItem => item.NvkGender)
+                        @if (!string.IsNullOrEmpty(item.NvkAvatar))
+                        {
+                            <img src="~/images/@item.NvkAvatar" alt="Avatar" width="60" height="60" style="object-fit: cover; border-radius: 50%;" />
+                        }
+                        else
+                        {
+                            <span>Không có ảnh</span>
+                        }
                     </td>
-       
+                    <td>@Html.DisplayFor(modelItem => item.NvkBirthday)</td>
+
+                    <td class="@(item.NvkGender == 1 ? "text-success" : "text-danger")">
+                        @(item.NvkGender == 1 ? "Nam" : "Nữ")
+                    </td>
+
                     <td>@Html.DisplayFor(modelItem => item.NvkPassword)</td>
                     <td>@Html.DisplayFor(modelItem => item.NvkFacebook)</td>
-                    <td>
+                    @*<td>
                     @Html.ActionLink("Edit", "NvkEdit", new { id = item.NvkId }) 
-                    @Html.ActionLink("Details", "TvcDetails", new { id = item.NvkId }) 
-                    @Html.ActionLink("Delete", "TvcDelete", new { id = item.NvkId })
-                </td>
+                    @Html.ActionLink("Details", "NvkDetails", new { id = item.NvkId }) 
+                    @Html.ActionLink("Delete", "NvkDelete", new { id = item.NvkId })
+                    </td>*@
+                    <td class="text-nowrap">
+                        <a asp-action="NvkEdit" asp-route-id="@item.NvkId" class="btn btn-sm btn-warning me-1">✏️ Sửa</a>
+                        <a asp-action="NvkDetails" asp-route-id="@item.NvkId" class="btn btn-sm btn-info me-1 text-white">🔍 Chi tiết</a>
+                        <a asp-action="NvkDelete" asp-route-id="@item.NvkId" class="btn btn-sm btn-danger">🗑️ Xoá</a>
+                    </td>
                 </tr>
             }
         </tbody>

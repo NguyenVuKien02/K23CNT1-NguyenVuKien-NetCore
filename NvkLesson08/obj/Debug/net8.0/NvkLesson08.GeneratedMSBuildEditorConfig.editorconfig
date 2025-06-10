@@ -22,6 +22,14 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnZrQWNjb3VudFxOdmtDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/asp net core/K23CNT1-NguyenVuKien-NetCore/NvkLesson08/Views/NvkAccount/NvkDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnZrQWNjb3VudFxOdmtEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/asp net core/K23CNT1-NguyenVuKien-NetCore/NvkLesson08/Views/NvkAccount/NvkDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnZrQWNjb3VudFxOdmtEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/asp net core/K23CNT1-NguyenVuKien-NetCore/NvkLesson08/Views/NvkAccount/NvkEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnZrQWNjb3VudFxOdmtFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

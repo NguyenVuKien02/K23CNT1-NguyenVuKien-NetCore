@@ -3,71 +3,86 @@
     ViewData["Title"] = "NvkEdit";
     Layout = "~/Views/Shared/_NvkLayout.cshtml";
 }
-<h1>NvkEdit</h1>
+<div class="container mt-5">
+    <div class="card shadow">
+        <div class="card-header bg-primary text-white">
+            <h4 class="mb-0">✏️ Chỉnh sửa thông tin Account</h4>
+        </div>
+        <div class="card-body">
+            <form asp-action="NvkEdit" asp-route-id="@Model.NvkId" enctype="multipart/form-data">
+                <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
 
-<h4>NvkEmployee</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="NvkEdit" asp-route-id="@Model.NvkId">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="NvkId" class="control-label"></label>
-                <input asp-for="NvkId" class="form-control"  readonly/>
-                <span asp-validation-for="NvkId" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="NvkFullName" class="control-label"></label>
-                <input asp-for="NvkFullName" class="form-control" />
-                <span asp-validation-for="NvkFullName" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="NvkEmail" class="control-label"></label>
-                <input asp-for="NvkEmail" class="form-control" />
-                <span asp-validation-for="NvkEmail" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="NvkPhone" class="control-label"></label>
-                <input asp-for="NvkPhone" class="form-control" />
-                <span asp-validation-for="NvkPhone" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="NvkAddress" class="control-label"></label>
-                <input asp-for="NvkAddress" class="form-control" />
-                <span asp-validation-for="NvkAddress" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="NvkAvatar" class="control-label"></label>
-                <input asp-for="NvkAvatar" class="form-control" />
-                <span asp-validation-for="NvkAvatar" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="NvkBirthday" class="control-label"></label>
-                <input asp-for="NvkBirthday" class="form-control" />
-                <span asp-validation-for="NvkBirthday" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="NvkGender" class="control-label"></label>
-                <input asp-for="NvkGender" class="form-control" />
-                <span asp-validation-for="NvkGender" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="NvkPassword" class="control-label"></label>
-                <input asp-for="NvkPassword" class="form-control" />
-                <span asp-validation-for="NvkPassword" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="NvkFacebook" class="control-label"></label>
-                <input asp-for="NvkFacebook" class="form-control" />
-                <span asp-validation-for="NvkFacebook" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
-            </div>
-        </form>
+                <div class="mb-3">
+                    <label class="form-label fw-bold">ID</label>
+                    <input asp-for="NvkId" class="form-control" readonly />
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="NvkFullName" class="form-label fw-bold"></label>
+                    <input asp-for="NvkFullName" class="form-control" />
+                    <span asp-validation-for="NvkFullName" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="NvkEmail" class="form-label fw-bold"></label>
+                    <input asp-for="NvkEmail" class="form-control" />
+                    <span asp-validation-for="NvkEmail" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="NvkPhone" class="form-label fw-bold"></label>
+                    <input asp-for="NvkPhone" class="form-control" />
+                    <span asp-validation-for="NvkPhone" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="NvkAddress" class="form-label fw-bold"></label>
+                    <input asp-for="NvkAddress" class="form-control" />
+                    <span asp-validation-for="NvkAddress" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="NvkAvatar" class="form-label fw-bold"></label><br />
+                    <img src="~/images/@Model.NvkAvatar" width="100" class="rounded mb-2 border" alt="Avatar hiện tại" />
+                    <input type="file" name="NvkAvatarFile" class="form-control" />
+                    <input type="hidden" asp-for="NvkAvatar" />
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="NvkBirthday" class="form-label fw-bold"></label>
+                    <input asp-for="NvkBirthday" class="form-control" type="date" />
+                    <span asp-validation-for="NvkBirthday" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label fw-bold">Giới tính</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" asp-for="NvkGender" value="1" id="genderNam" />
+                        <label class="form-check-label" for="genderNam">♂️ Nam</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" asp-for="NvkGender" value="2" id="genderNu" />
+                        <label class="form-check-label" for="genderNu">♀️ Nữ</label>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="NvkPassword" class="form-label fw-bold"></label>
+                    <input asp-for="NvkPassword" class="form-control" type="text" />
+                    <span asp-validation-for="NvkPassword" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="NvkFacebook" class="form-label fw-bold"></label>
+                    <input asp-for="NvkFacebook" class="form-control" />
+                    <span asp-validation-for="NvkFacebook" class="text-danger"></span>
+                </div>
+
+                <div class="d-flex justify-content-between align-items-center">
+                    <a asp-action="NvkIndexAccount" class="btn btn-secondary">⬅ Quay lại</a>
+                    <button type="submit" class="btn btn-success">💾 Lưu thay đổi</button>
+                </div>
+            </form>
+        </div>
     </div>
-</div>
-
-<div>
-    <a asp-action="NvkIndex">Back to List</a>
 </div>
