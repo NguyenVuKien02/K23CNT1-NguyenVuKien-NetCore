@@ -1,0 +1,296 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\asp net core\\K23CNT1-NguyenVuKien-NetCore\\NvkLesson09\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8C672C-AD4D-4730-92E2-1B7B8DE244C9}|NvkLesson09.csproj|e:\\asp net core\\k23cnt1-nguyenvukien-netcore\\nvklesson09\\views\\nvkcategories\\nvkindex1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B8C672C-AD4D-4730-92E2-1B7B8DE244C9}|NvkLesson09.csproj|solutionrelative:views\\nvkcategories\\nvkindex1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8C672C-AD4D-4730-92E2-1B7B8DE244C9}|NvkLesson09.csproj|e:\\asp net core\\k23cnt1-nguyenvukien-netcore\\nvklesson09\\controllers\\nvkcategoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B8C672C-AD4D-4730-92E2-1B7B8DE244C9}|NvkLesson09.csproj|solutionrelative:controllers\\nvkcategoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8C672C-AD4D-4730-92E2-1B7B8DE244C9}|NvkLesson09.csproj|e:\\asp net core\\k23cnt1-nguyenvukien-netcore\\nvklesson09\\views\\nvkcategories\\nvkedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B8C672C-AD4D-4730-92E2-1B7B8DE244C9}|NvkLesson09.csproj|solutionrelative:views\\nvkcategories\\nvkedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8C672C-AD4D-4730-92E2-1B7B8DE244C9}|NvkLesson09.csproj|e:\\asp net core\\k23cnt1-nguyenvukien-netcore\\nvklesson09\\views\\nvkcategories\\nvkcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B8C672C-AD4D-4730-92E2-1B7B8DE244C9}|NvkLesson09.csproj|solutionrelative:views\\nvkcategories\\nvkcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8C672C-AD4D-4730-92E2-1B7B8DE244C9}|NvkLesson09.csproj|e:\\asp net core\\k23cnt1-nguyenvukien-netcore\\nvklesson09\\views\\nvkcategories\\nvkdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B8C672C-AD4D-4730-92E2-1B7B8DE244C9}|NvkLesson09.csproj|solutionrelative:views\\nvkcategories\\nvkdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8C672C-AD4D-4730-92E2-1B7B8DE244C9}|NvkLesson09.csproj|e:\\asp net core\\k23cnt1-nguyenvukien-netcore\\nvklesson09\\views\\nvkcategories\\nvkdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B8C672C-AD4D-4730-92E2-1B7B8DE244C9}|NvkLesson09.csproj|solutionrelative:views\\nvkcategories\\nvkdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8C672C-AD4D-4730-92E2-1B7B8DE244C9}|NvkLesson09.csproj|e:\\asp net core\\k23cnt1-nguyenvukien-netcore\\nvklesson09\\views\\nvkhome\\nvkindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B8C672C-AD4D-4730-92E2-1B7B8DE244C9}|NvkLesson09.csproj|solutionrelative:views\\nvkhome\\nvkindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8C672C-AD4D-4730-92E2-1B7B8DE244C9}|NvkLesson09.csproj|e:\\asp net core\\k23cnt1-nguyenvukien-netcore\\nvklesson09\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B8C672C-AD4D-4730-92E2-1B7B8DE244C9}|NvkLesson09.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8C672C-AD4D-4730-92E2-1B7B8DE244C9}|NvkLesson09.csproj|e:\\asp net core\\k23cnt1-nguyenvukien-netcore\\nvklesson09\\views\\shared\\_nvklayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B8C672C-AD4D-4730-92E2-1B7B8DE244C9}|NvkLesson09.csproj|solutionrelative:views\\shared\\_nvklayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8C672C-AD4D-4730-92E2-1B7B8DE244C9}|NvkLesson09.csproj|e:\\asp net core\\k23cnt1-nguyenvukien-netcore\\nvklesson09\\views\\shared\\_nvknavbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B8C672C-AD4D-4730-92E2-1B7B8DE244C9}|NvkLesson09.csproj|solutionrelative:views\\shared\\_nvknavbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8C672C-AD4D-4730-92E2-1B7B8DE244C9}|NvkLesson09.csproj|e:\\asp net core\\k23cnt1-nguyenvukien-netcore\\nvklesson09\\controllers\\nvkhomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B8C672C-AD4D-4730-92E2-1B7B8DE244C9}|NvkLesson09.csproj|solutionrelative:controllers\\nvkhomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8C672C-AD4D-4730-92E2-1B7B8DE244C9}|NvkLesson09.csproj|e:\\asp net core\\k23cnt1-nguyenvukien-netcore\\nvklesson09\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5B8C672C-AD4D-4730-92E2-1B7B8DE244C9}|NvkLesson09.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8C672C-AD4D-4730-92E2-1B7B8DE244C9}|NvkLesson09.csproj|e:\\asp net core\\k23cnt1-nguyenvukien-netcore\\nvklesson09\\models\\nvkbookstorecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B8C672C-AD4D-4730-92E2-1B7B8DE244C9}|NvkLesson09.csproj|solutionrelative:models\\nvkbookstorecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8C672C-AD4D-4730-92E2-1B7B8DE244C9}|NvkLesson09.csproj|e:\\asp net core\\k23cnt1-nguyenvukien-netcore\\nvklesson09\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B8C672C-AD4D-4730-92E2-1B7B8DE244C9}|NvkLesson09.csproj|solutionrelative:models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8C672C-AD4D-4730-92E2-1B7B8DE244C9}|NvkLesson09.csproj|e:\\asp net core\\k23cnt1-nguyenvukien-netcore\\nvklesson09\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B8C672C-AD4D-4730-92E2-1B7B8DE244C9}|NvkLesson09.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8C672C-AD4D-4730-92E2-1B7B8DE244C9}|NvkLesson09.csproj|e:\\asp net core\\k23cnt1-nguyenvukien-netcore\\nvklesson09\\views\\nvkhome\\nvkprivacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B8C672C-AD4D-4730-92E2-1B7B8DE244C9}|NvkLesson09.csproj|solutionrelative:views\\nvkhome\\nvkprivacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NvkEdit.cshtml",
+              "DocumentMoniker": "E:\\asp net core\\K23CNT1-NguyenVuKien-NetCore\\NvkLesson09\\Views\\NvkCategories\\NvkEdit.cshtml",
+              "RelativeDocumentMoniker": "Views\\NvkCategories\\NvkEdit.cshtml",
+              "ToolTip": "E:\\asp net core\\K23CNT1-NguyenVuKien-NetCore\\NvkLesson09\\Views\\NvkCategories\\NvkEdit.cshtml",
+              "RelativeToolTip": "Views\\NvkCategories\\NvkEdit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T03:51:28.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NvkDetails.cshtml",
+              "DocumentMoniker": "E:\\asp net core\\K23CNT1-NguyenVuKien-NetCore\\NvkLesson09\\Views\\NvkCategories\\NvkDetails.cshtml",
+              "RelativeDocumentMoniker": "Views\\NvkCategories\\NvkDetails.cshtml",
+              "ToolTip": "E:\\asp net core\\K23CNT1-NguyenVuKien-NetCore\\NvkLesson09\\Views\\NvkCategories\\NvkDetails.cshtml",
+              "RelativeToolTip": "Views\\NvkCategories\\NvkDetails.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T03:51:11.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NvkCreate.cshtml",
+              "DocumentMoniker": "E:\\asp net core\\K23CNT1-NguyenVuKien-NetCore\\NvkLesson09\\Views\\NvkCategories\\NvkCreate.cshtml",
+              "RelativeDocumentMoniker": "Views\\NvkCategories\\NvkCreate.cshtml",
+              "ToolTip": "E:\\asp net core\\K23CNT1-NguyenVuKien-NetCore\\NvkLesson09\\Views\\NvkCategories\\NvkCreate.cshtml",
+              "RelativeToolTip": "Views\\NvkCategories\\NvkCreate.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T03:45:24.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NvkIndex1.cshtml",
+              "DocumentMoniker": "E:\\asp net core\\K23CNT1-NguyenVuKien-NetCore\\NvkLesson09\\Views\\NvkCategories\\NvkIndex1.cshtml",
+              "RelativeDocumentMoniker": "Views\\NvkCategories\\NvkIndex1.cshtml",
+              "ToolTip": "E:\\asp net core\\K23CNT1-NguyenVuKien-NetCore\\NvkLesson09\\Views\\NvkCategories\\NvkIndex1.cshtml",
+              "RelativeToolTip": "Views\\NvkCategories\\NvkIndex1.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T03:51:54.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NvkCategoriesController.cs",
+              "DocumentMoniker": "E:\\asp net core\\K23CNT1-NguyenVuKien-NetCore\\NvkLesson09\\Controllers\\NvkCategoriesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NvkCategoriesController.cs",
+              "ToolTip": "E:\\asp net core\\K23CNT1-NguyenVuKien-NetCore\\NvkLesson09\\Controllers\\NvkCategoriesController.cs",
+              "RelativeToolTip": "Controllers\\NvkCategoriesController.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAwwEUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T03:38:09.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NvkDelete.cshtml",
+              "DocumentMoniker": "E:\\asp net core\\K23CNT1-NguyenVuKien-NetCore\\NvkLesson09\\Views\\NvkCategories\\NvkDelete.cshtml",
+              "RelativeDocumentMoniker": "Views\\NvkCategories\\NvkDelete.cshtml",
+              "ToolTip": "E:\\asp net core\\K23CNT1-NguyenVuKien-NetCore\\NvkLesson09\\Views\\NvkCategories\\NvkDelete.cshtml",
+              "RelativeToolTip": "Views\\NvkCategories\\NvkDelete.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T03:45:20.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NvkIndex.cshtml",
+              "DocumentMoniker": "E:\\asp net core\\K23CNT1-NguyenVuKien-NetCore\\NvkLesson09\\Views\\NvkHome\\NvkIndex.cshtml",
+              "RelativeDocumentMoniker": "Views\\NvkHome\\NvkIndex.cshtml",
+              "ToolTip": "E:\\asp net core\\K23CNT1-NguyenVuKien-NetCore\\NvkLesson09\\Views\\NvkHome\\NvkIndex.cshtml",
+              "RelativeToolTip": "Views\\NvkHome\\NvkIndex.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T01:42:37.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\asp net core\\K23CNT1-NguyenVuKien-NetCore\\NvkLesson09\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\asp net core\\K23CNT1-NguyenVuKien-NetCore\\NvkLesson09\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T01:48:38.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_NvkLayout.cshtml",
+              "DocumentMoniker": "E:\\asp net core\\K23CNT1-NguyenVuKien-NetCore\\NvkLesson09\\Views\\Shared\\_NvkLayout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_NvkLayout.cshtml",
+              "ToolTip": "E:\\asp net core\\K23CNT1-NguyenVuKien-NetCore\\NvkLesson09\\Views\\Shared\\_NvkLayout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_NvkLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T01:36:25.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Nvknavbar.cshtml",
+              "DocumentMoniker": "E:\\asp net core\\K23CNT1-NguyenVuKien-NetCore\\NvkLesson09\\Views\\Shared\\_Nvknavbar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Nvknavbar.cshtml",
+              "ToolTip": "E:\\asp net core\\K23CNT1-NguyenVuKien-NetCore\\NvkLesson09\\Views\\Shared\\_Nvknavbar.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Nvknavbar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAB0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T01:37:47.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "E:\\asp net core\\K23CNT1-NguyenVuKien-NetCore\\NvkLesson09\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "E:\\asp net core\\K23CNT1-NguyenVuKien-NetCore\\NvkLesson09\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T03:14:58.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Book.cs",
+              "DocumentMoniker": "E:\\asp net core\\K23CNT1-NguyenVuKien-NetCore\\NvkLesson09\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "Models\\Book.cs",
+              "ToolTip": "E:\\asp net core\\K23CNT1-NguyenVuKien-NetCore\\NvkLesson09\\Models\\Book.cs",
+              "RelativeToolTip": "Models\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T03:15:02.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "NvkBookStoreContext.cs",
+              "DocumentMoniker": "E:\\asp net core\\K23CNT1-NguyenVuKien-NetCore\\NvkLesson09\\Models\\NvkBookStoreContext.cs",
+              "RelativeDocumentMoniker": "Models\\NvkBookStoreContext.cs",
+              "ToolTip": "E:\\asp net core\\K23CNT1-NguyenVuKien-NetCore\\NvkLesson09\\Models\\NvkBookStoreContext.cs",
+              "RelativeToolTip": "Models\\NvkBookStoreContext.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAA9wB8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T03:14:30.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\asp net core\\K23CNT1-NguyenVuKien-NetCore\\NvkLesson09\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "E:\\asp net core\\K23CNT1-NguyenVuKien-NetCore\\NvkLesson09\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-16T03:16:07.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "NvkHomeController.cs",
+              "DocumentMoniker": "E:\\asp net core\\K23CNT1-NguyenVuKien-NetCore\\NvkLesson09\\Controllers\\NvkHomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NvkHomeController.cs",
+              "ToolTip": "E:\\asp net core\\K23CNT1-NguyenVuKien-NetCore\\NvkLesson09\\Controllers\\NvkHomeController.cs",
+              "RelativeToolTip": "Controllers\\NvkHomeController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T01:30:43.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "NvkPrivacy.cshtml",
+              "DocumentMoniker": "E:\\asp net core\\K23CNT1-NguyenVuKien-NetCore\\NvkLesson09\\Views\\NvkHome\\NvkPrivacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\NvkHome\\NvkPrivacy.cshtml",
+              "ToolTip": "E:\\asp net core\\K23CNT1-NguyenVuKien-NetCore\\NvkLesson09\\Views\\NvkHome\\NvkPrivacy.cshtml",
+              "RelativeToolTip": "Views\\NvkHome\\NvkPrivacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T01:32:52.907Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
