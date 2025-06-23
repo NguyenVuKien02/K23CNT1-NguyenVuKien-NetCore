@@ -7,6 +7,7 @@ namespace NvkLesson09.Models;
 public partial class Category
 {
     [Key]
+    [Display(Name = "ID")]
     public int CategoryId { get; set; }
 
     [Required(ErrorMessage = "Tên thể loại không được để trống")]

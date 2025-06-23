@@ -18,11 +18,23 @@ namespace NvkLesson09.Controllers
             _context = context;
         }
 
-        // GET: NvkCategories
-        public async Task<IActionResult> NvkIndex1()
+        public async Task<IActionResult> NvkIndex1(string keyword)
         {
-            return View(await _context.Categories.ToListAsync());
+            var categories = _context.Categories.AsQueryable();
+
+            if (!string.IsNullOrEmpty(keyword))
+            {
+                categories = categories.Where(c => c.CategoryName.Contains(keyword));
+            }
+
+            return View(await categories.OrderBy(c => c.CategoryId).ToListAsync());
         }
+
+        //// GET: NvkCategories
+        //public async Task<IActionResult> NvkIndex1()
+        //{
+        //    return View(await _context.Categories.ToListAsync());
+        //}
 
         // GET: NvkCategories/Details/5
         public async Task<IActionResult> NvkDetails(int? Nvkid)
