@@ -1,0 +1,70 @@
+﻿@model NvkLesson09.Models.Publisher
+
+@{
+    ViewData["Title"] = "Thông tin chi tiết";
+}
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-header">
+                <h1 class="my-2">@ViewData["Title"]</h1>
+            </div>
+            <div class="card-body">
+                <div class="form-group my-1">
+                    <label>ID:</label>
+                    @Html.DisplayFor(model => model.PublisherId)
+                </div>
+                <div class="form-group my-1">
+                    <label>Tên nhà xuất bản:</label>
+                    @Html.DisplayFor(model => model.PublisherName)
+                </div>
+                <div class="form-group my-1">
+                    <label>Phone:</label>
+                    @Html.DisplayFor(model => model.Phone)
+                </div>
+                <div class="form-group my-1">
+                    <label>Địa chỉ:</label>
+                    @Html.DisplayFor(model => model.Address)
+                </div>
+            </div>
+            <div class="card-footer">
+                <div class="form-group">
+                    <a asp-action="NvkEdit" asp-route-Nvkid="@Model?.PublisherId" class="btn btn-primary">Edit</a>
+                    <a asp-action="NvkIndex2" class="btn btn-danger">Quay lại</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@* <h1>Details</h1>
+
+<div>
+    <h4>Publisher</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.PublisherName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.PublisherName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Phone)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Phone)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Address)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Address)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.PublisherId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div> *@
