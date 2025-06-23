@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NvkLesson09")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+35365bfabd341d66cc934bfae86eb2e0731e9a88")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+783fb8802e821634701521774af60da0d0236252")]
 [assembly: System.Reflection.AssemblyProductAttribute("NvkLesson09")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NvkLesson09")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
